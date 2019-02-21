@@ -7,15 +7,19 @@
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@material-ui/core": "^3.8.1",
     "@material-ui/icons": "^3.0.1",
+    "@types/react-dom": "^16.0.11",
     "axios": "^0.18.0",
     "false": "0.0.4",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
+    "react-testing-library": "^5.4.4",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
+    "@types/jest": "^23.3.12",
     "@types/react-fontawesome": "^1.6.4",
+    "jest": "^23.6.0",
     "react-scripts": "2.1.2"
   },
   "scripts": {

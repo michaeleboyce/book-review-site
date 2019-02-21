@@ -1,9 +1,9 @@
 import React, { FunctionComponent, useState, Suspense } from 'react'
 import './App.css'
-import ImageButton from './ImageButton'
+import ImageButton from './components/ImageButton'
 import axios from 'axios'
-import CbImage from './CbImage';
-import { IImage } from '../../models/image';
+import CbImage from './components/CbImage'
+import { IImage } from '../../models/image'
 declare var fetch: any 
 interface IState {
   uploading: boolean

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react'
-import { IImage } from '../../models/image'
+import { IImage } from '../../../models/image'
 import { DeleteForeverRounded } from '@material-ui/icons'
 import { IconButton } from '@material-ui/core'
 

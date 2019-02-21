@@ -9,7 +9,7 @@ const ImageButton: FunctionComponent<IProps> = ({handleChange}) => {
       <label htmlFor='file-label'>
         <CloudUpload />
       </label>
-      <input  id='file-label'type='file' onChange={handleChange} multiple />
+      <input  id='file-label'aria-label='file-upload-label' type='file' onChange={handleChange} multiple />
     </>
   )
 }
